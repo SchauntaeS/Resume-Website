@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Schauntae Simons</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="effects.css">
+    <link rel="stylesheet" href="layout.css">
+
+
+</head>
+<!--CONTACT-->
+<body>
+    <!--header section with nav links-->
+    <header>
+        <nav class="horizontal">
+            <ul>
+                <li><a href="index.html">Home Page</a></li>
+                <!--basic overview-->
+                <li><a href="about.html">About</a></li>
+                <!--Social sites-->
+                <li><a href="skills.html">Skills</a></li>
+                <!--Skills w/ clips-->
+                <li><a href="myWork.html">My Work</a></li>
+                <!--Examples of my work-->
+                <li><a href ="contact.html">Contact</a></li>
+                <!--Contacts-->
+            </ul>
+        </nav>
+    </header>
+    <section id="contact">
+        <form action="http://www.example.com" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+            <fieldset>
+                <legend>Preferred Contact Method:</legend>
+                <input type="radio" id="phone" name="contact_method" value="phone">
+                <label for="phone">Phone</label><br>
+                <input type="radio" id="email_contact" name="contact_method" value="email">
+                <label for="email_contact">Email</label><br>
+            </fieldset><br>
+
+            <fieldset>
+                <legend>Interests:</legend>
+                <input type="checkbox" id="web_dev" name="interests" value="Web Development">
+                <label for="web_dev">Web Development</label><br>
+                <input type="checkbox" id="design" name="interests" value="Design">
+                <label for="design">Design</label><br>
+                <input type="checkbox" id="marketing" name="interests" value="Marketing">
+                <label for="marketing">Marketing</label><br>
+            </fieldset><br>
+            <fieldset>
+                <legend>Questions:</legend>
+                <input type="text" id="questions" name="questions" value="Questions">
+            </fieldset>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+    <section id="resume">
+        <h3><a href="Resume.pdf">Resume for Schauntae</a></h3>
+    </section>
+    <footer>
+        &#169; 2024 Schauntae Simons Resume
+    </footer>
+</body>

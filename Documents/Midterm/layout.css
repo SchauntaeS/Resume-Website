@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+html{
+   background-color: black;
+}
+/*body*/
+body{
+    border: 2px solid #333;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #c7badb;
+}
+/*header*/
+header{
+    width: 100%;   
+    text-align: left;
+}
+header nav.horizontal{
+    display: flex;
+    list-style: none;
+}
+header nav.horizontal li{
+    background-color: rgb(41, 41, 41);
+    list-style: none;
+}
+header nav.horizontal li a {
+    color: white;
+    display: block;
+    font-size: 0.8em;
+    height: 50px;
+    letter-spacing: 0.1em;
+    line-height: 50px;
+    text-align: left;
+    padding: 0 15px;
+}
+header nav.horizontal li a:visited, header nav.horizontal li a:link {
+    color: white;
+}
+body > header a {
+    background-color: #19024b;
+}
+body > header:active, body > header a:hover {
+    background-color:aqua;
+}
+#index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+video{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.mportrait{
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+/*footer*/
+footer{
+    margin-top: 15px;
+    background-color: gray;
+    color: rgb(231, 231, 231);
+    text-align: center;
+}
+footer, footer span a {
+    font-size: 11px;
+    padding: 10px;
+    color: rgb(231,231,231);
+}
+footer span a:hover {
+    color: rgb(231, 231, 231);
+    text-decoration: underline;
+}
